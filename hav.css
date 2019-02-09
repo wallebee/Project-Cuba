@@ -1,3 +1,22 @@
 body {
+    text-align: center;
+    font-family: sans-serif, monospace;
     background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+
+.cuba-image {
+    max-height: 200px;
+    max-width: 260px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+
+#ladies {
+    transform: rotate(90deg);
 }
