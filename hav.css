@@ -14,6 +14,7 @@ h1 {
     max-width: 260px;
     object-fit: cover;
     display: inline-block;
+    transform: rotate(90deg)
 }
 
 
