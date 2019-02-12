@@ -17,6 +17,14 @@ h1 {
     transform: rotate(90deg)
 }
 
+.cuba-image1 {
+    max-height: 200px;
+    max-width: 260px;
+    object-fit: cover;
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
 
 #ladies {
     transform: rotate(90deg);
