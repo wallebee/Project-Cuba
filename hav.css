@@ -10,10 +10,12 @@ h1 {
 
 
 .cuba-image {
+    margin: 15px;
+    padding: 20px;
     max-height: 200px;
     max-width: 260px;
     object-fit: cover;
-    display: inline-block;
+    display: inline-flex;
     transform: rotate(90deg)
 }
 
@@ -29,3 +31,28 @@ h1 {
 #ladies {
     transform: rotate(90deg);
 }
+
+
+#the_classics {
+    max-height: 200px;
+    max-width: 260px;
+    object-fit: cover;
+    display: inline-block;
+    top: 325px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
