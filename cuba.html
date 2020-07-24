@@ -10,39 +10,64 @@
       
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="hav.css">
+        <link rel="stylesheet" href="cuba.img">
     </head>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="cuba.html">Home</a></li>
+            <li><a href="FamousFaces.html">Famous Faces</a></li>
+            <li><a href="GettingAroundTown.html">Getting Around Town</a></li>
+            <li><a href="Register.html">Register</a></li>
+          </ul>
+        </nav>
+       </header>
     <body>
-        <h1> Project Cuba</h1>
-
+ <h1> Project Cuba</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         
+        <!---Indicators--> 
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
 
         <h2><button class="toggle castro">Monuments</button></h2>
+        
+        <!----Wrapper for slideshow-->
+        
+        <div class="carousel-inner">
+          <div class="item active">
           <img src="cuba.img/castro.jpg" class="cuba-image"
             id="revolution">
-            <img src="cuba.img/che_guevara.jpg" class="cuba-image " id="revolutionary">
+          </div>
+          
+          <div class="item" >
+            <img src="cuba.img/che_guevara.jpg" class="cuba-image" id="revolutionary">
+          </div>  
+             
 
-          <h2><button class="toggle Fire">Old Fire Department</button></h2>
-          <p></p>
-          <ul>
-            <li></li>
-          <li><img src="cuba.img/fire_1.jpg" class="cuba-image Fire" ></li>
-            <li></li>
-        <li><img src="cuba.img/fire_2.jpg" class="cuba-image Fire"></li>
-          <li></li>
-        </ul>
+        <div class="item">
+          <img src="cuba.img/Marti.jpg" class="cuba-image">
+          </div>  
+       
+           <div class="item">
+            <img src="cuba.img/the_ladies.jpg" alt="" class="cuba-image" id="ladies">
+             </div>
+        </div>
 
-       <h2><button class="toggle Economy">Local Economy</button></h2>
-       <p></p>
-       <ul>
-            <li></li>
-        <li><img src="cuba.img/the_ladies.jpg" class="cuba-image Economy">
-            <li></li>
-        <li><img src="cuba.img/taxi_1.jpg" class="cuba-image1 Economy" id="purple_taxi"></li>
-            <li></li>
-        <li><img src="cuba.img/taxi_2.jpg" class="cuba-image Economy" id="pink_cadi"></li>
-            <li></li>
-        <li><img src="cuba.img/taxi_stand.jpg" id="the_classics" class="Economy"></li>
-            <li></li>
-    </ul>
+                   <!----controls-->
+            
+           <a class="left carousel-control" href="#myCarousel" data-slide="Last">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+             <span class="sr-only">Last</span>
+           </a>
+           <a class="right carousel-control" href="#myCarousel" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right"></span>
+             <span sr-only>Next</span>
+           </a>        
 
        <script type="text/javascript" href="vac.js"></script>
     </body>
