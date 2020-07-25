@@ -64,12 +64,29 @@ h1 {
     top: 325px;
 }
 
+#purple_taxi {
+    max-width: 260px;
+    max-height: 260px;
+}
+
 .item {
     display: inline-block;
     transform: rotate(90deg);
 }
 
+.carousel-inner {
+    padding: 45px;
+}
 
+.pee {
+
+    padding: 55px;
+}
+
+
+.blue {
+    gap: 50px;
+}
 
 
 
